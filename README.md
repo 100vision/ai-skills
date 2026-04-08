@@ -4,9 +4,11 @@ a skill gallery for work.
 
 ## install specifi skills
 
-``bash
+- for human:
+```bash
 npx skills add 100vision/ai-skills/<skill_name>
 ```
+- for AI Agent, feed your AI Agent with specific `README` document.
 
 ## License
 
