@@ -2,7 +2,7 @@
 
 a skill gallery for work.
 
-## install specifi skills
+## install specific skills
 
 - for human:
 ```bash
