@@ -6,7 +6,7 @@ a skill gallery for work.
 
 - for human:
 ```bash
-npx skills add 100vision/ai-skills/<skill_name>
+npx skills add 100vision/ai-skills/skills/<skill_name>
 ```
 - for AI Agent, feed your AI Agent with specific `README` document.
 
