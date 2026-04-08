@@ -1,23 +1,23 @@
 ---
-name: jira-cli
-description: Operate Atlassian Jira via command line using jira-cli. Use when the user wants to list, create, edit, view, assign, move, delete, clone, or comment on Jira issues; manage epics, sprints, or releases; search issues with JQL; or configure Jira connection. Triggers on any mention of "jira", "Jira", "issue", "ticket", "sprint", "epic", "JQL", or tasks like "list my issues", "create a ticket", "assign issue", "move to done", "show sprint issues", "create epic", or Jira-related workflows. Also use when user mentions "jira-cli" or wants CLI-based Jira operations.
+name: jira
+description: Operate Atlassian Jira via command line using jira. Use when the user wants to list, create, edit, view, assign, move, delete, clone, or comment on Jira issues; manage epics, sprints, or releases; search issues with JQL; or configure Jira connection. Triggers on any mention of "jira", "Jira", "issue", "ticket", "sprint", "epic", "JQL", or tasks like "list my issues", "create a ticket", "assign issue", "move to done", "show sprint issues", "create epic", or Jira-related workflows. Also use when user mentions "jira" or wants CLI-based Jira operations.
 ---
 
-# jira-cli Skill
+# jira Skill
 
 A skill for operating Atlassian Jira via the `jira` CLI tool.
 
 ## Prerequisites
 
-1. **Install jira-cli** (if not already installed):
+1. **Install jira** (if not already installed):
    ```bash
-   # Download from https://github.com/ankitpokhrel/jira-cli/releases
-   curl -L "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.7.0/jira_1.7.0_linux_x86_64.tar.gz" -o /tmp/jira-cli.tar.gz
-   tar -xzf /tmp/jira-cli.tar.gz -C /tmp/
+   # Download from https://github.com/ankitpokhrel/jira/releases
+   curl -L "https://github.com/ankitpokhrel/jira/releases/download/v1.7.0/jira_1.7.0_linux_x86_64.tar.gz" -o /tmp/jira.tar.gz
+   tar -xzf /tmp/jira.tar.gz -C /tmp/
    sudo cp /tmp/jira_1.7.0_linux_x86_64/bin/jira /usr/local/bin/
    ```
 
-2. **Configure jira-cli** (if not already configured):
+2. **Configure jira** (if not already configured):
    - Get API token: https://id.atlassian.com/manage-profile/security/api-tokens
    - Export: `export JIRA_API_TOKEN="your-token-here"`
    - Run: `jira init` and follow prompts
