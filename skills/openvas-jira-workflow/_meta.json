@@ -1,0 +1,14 @@
+{
+  "name": "openvas-jira-workflow",
+  "description": "将 OpenVAS 漏洞扫描报告转换为 Jira Issue 的自动化工作流",
+  "triggers": [
+    "创建 OpenVAS 报告 Jira issue",
+    "创建漏洞扫描 issue",
+    "OpenVAS 转 Jira",
+    "漏洞扫描报告转 Jira"
+  ],
+  "keywords": ["openvas", "jira", "vulnerability", "scan", "workflow"],
+  "version": "1.0.0",
+  "author": "tlin",
+  "dependencies": ["openvas-cli", "jira-cli"]
+}
