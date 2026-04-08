@@ -1,0 +1,12 @@
+{
+  "name": "jira-cli",
+  "version": "1.0.0",
+  "source": "https://github.com/ankitpokhrel/jira-cli",
+  "github": "https://github.com/ankitpokhrel/jira-cli",
+  "vetting": {
+    "date": "2026-04-08",
+    "status": "passed",
+    "risk": "low",
+    "notes": "Local CLI tool wrapper for jira-cli (⭐5.5k). Provides issue management, epic/sprint management, and JQL search. Low risk - operates on user's configured Jira instance."
+  }
+}
