@@ -1,0 +1,20 @@
+{
+  "default_template": "finance_classic",
+  "available_templates": {
+    "tech_dark": {
+      "name": "极客科技风",
+      "file_path": "templates/tech_dark.pptx",
+      "best_for": "产品发布会、技术架构汇报、AI/互联网行业展示"
+    },
+    "finance_classic": {
+      "name": "经典商务风",
+      "file_path": "templates/finance_classic.pptx",
+      "best_for": "财务报表、麦肯锡风格行业报告、季度业绩总结"
+    },
+    "government_red": {
+      "name": "大气党政风",
+      "file_path": "templates/government_red.pptx",
+      "best_for": "国企汇报、党建宣讲、政府工作总结报告"
+    }
+  }
+}
